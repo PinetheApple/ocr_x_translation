@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 
-const String baseUrl = 'https://d0b0-103-252-24-74.ngrok-free.app/translate';
+const String baseUrl = 'https://<enter_server_address_here>/translate';
 
 class DioUploadService {
   Future<String> uploadImage(String imagePath, BuildContext context) async {
